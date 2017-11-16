@@ -3,7 +3,7 @@ About mkl_fft
 
 Home: http://github.com/IntelPython/mkl_fft
 
-Package license: BSD
+Package license: BSD 3-Clause
 
 Feedstock license: BSD 3-Clause
 
