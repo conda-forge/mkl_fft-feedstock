@@ -36,7 +36,7 @@ test:
 
 about:
     home: http://github.com/IntelPython/mkl_fft
-    license: BSD
+    license: BSD 3-Clause
     license_file: LICENSE.txt
     summary: NumPy-based implementation of Fast Fourier Transform using Intel (R) Math Kernel Library.
 
