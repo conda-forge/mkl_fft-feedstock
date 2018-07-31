@@ -14,16 +14,17 @@ build:
 
 requirements:
     build:
+      - compiler('c')
+    host:
       - python
-      - toolchain
       - setuptools
       - mkl-devel
       - cython
-      - numpy 1.11.*
+      - numpy
     run:
       - python
       - mkl
-      - numpy >=1.11
+      - {{ pin_compatible('numpy') }}
 
 test:
     commands:
