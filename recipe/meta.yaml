@@ -1,4 +1,4 @@
-{% set version = "1.0.6" %}
+{% set version = "1.0.8" %}
 {% set buildnumber = 0 %}
 
 package:
@@ -7,7 +7,7 @@ package:
 
 source:
     url: https://github.com/IntelPython/mkl_fft/archive/v{{version}}.tar.gz
-    sha256: 3c7ed29e203c5b664ecafb11d767d62f9cae4aa56f9a95737e121192a66673bf
+    sha256: 4b89526088e814c9f45b1c5f03bdae97dcd33a73a05203a131c6cb0a7152db1c
 
 build:
     number: {{buildnumber}}
