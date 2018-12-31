@@ -24,7 +24,7 @@ requirements:
     run:
       - python
       - mkl
-      - numpy >=1.11
+      - {{ pin_compatible('numpy') }}
 
 test:
     commands:
