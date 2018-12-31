@@ -13,9 +13,10 @@ build:
     number: {{ buildnumber }}
 
 requirements:
+    build:
+      - {{ compiler('c') }}
     host:
       - python
-      - toolchain
       - setuptools
       - mkl-devel
       - cython
