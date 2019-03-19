@@ -16,14 +16,14 @@ requirements:
     build:
       - {{ compiler('c') }}
     host:
+      - libblas
+      - libcblas
       - python
       - setuptools
-      - mkl-devel
       - cython
       - numpy 1.11.*
     run:
       - python
-      - mkl
       - {{ pin_compatible('numpy') }}
 
 test:
@@ -32,9 +32,6 @@ test:
     requires:
       - nose
     imports:
-      - mkl_fft
-      - mkl_fft._numpy_fft
-      - mkl_fft._scipy_fft
 
 about:
     home: http://github.com/IntelPython/mkl_fft
