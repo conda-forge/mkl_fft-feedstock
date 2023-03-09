@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://github.com/IntelPython/mkl_fft/archive/v{{ version }}.tar.gz
-  sha256: 0d7ee27282640f474c0a26071197513e3b7d40755c46afa70c79c4beef09f375
+  sha256: bf8a3b491548222661a4dff8fa7df90f30f0ff624aa31edc926c72d7ae6bdda6
 
 build:
   number: 0
