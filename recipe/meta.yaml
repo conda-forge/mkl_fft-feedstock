@@ -25,6 +25,7 @@ requirements:
   run:
     - python
     - mkl
+    - mkl-service
     - {{ pin_compatible('numpy') }}
 
 test:
