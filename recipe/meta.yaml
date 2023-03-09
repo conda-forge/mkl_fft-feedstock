@@ -25,17 +25,17 @@ requirements:
   run:
     - python
     - mkl
+    - mkl-service
     - {{ pin_compatible('numpy') }}
 
 test:
   commands:
-    - nosetests -v mkl_fft
+    - pytest -v --pyargs mkl_fft
   requires:
-    - nose
+    - pytest
   imports:
     - mkl_fft
-    - mkl_fft._numpy_fft
-    - mkl_fft._scipy_fft
+    - mkl_fft.interfaces
 
 about:
   home: http://github.com/IntelPython/mkl_fft
