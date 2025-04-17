@@ -19,13 +19,13 @@ requirements:
     - {{ stdlib("c") }}
   host:
     - python
-    - setuptools
+    - setuptools >=77
     - mkl-devel
     - cython
     - numpy
   run:
     - python
-    - mkl
+    - numpy
     - mkl-service
 
 test:
@@ -36,6 +36,8 @@ test:
   imports:
     - mkl_fft
     - mkl_fft.interfaces
+    - mkl_fft.interfaces.numpy_fft
+    - mkl_fft.interfaces.scipy_fft
 
 about:
   home: http://github.com/IntelPython/mkl_fft
