@@ -9,7 +9,7 @@ source:
   sha256: 539f4a3828e57df2f7b31eb06fddaa64a7d8de469afe10caa14365aeb62f0dad
 
 build:
-  number: 0
+  number: 1
   ignore_run_exports:
     - blas
 
