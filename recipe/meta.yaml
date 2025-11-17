@@ -1,5 +1,4 @@
 {% set version = "2.1.1" %}
-
 package:
   name: mkl_fft
   version: {{ version }}
@@ -51,3 +50,5 @@ extra:
   recipe-maintainers:
     - ekomarova
     - vtavana
+    - xaleryb
+    - jharlow-intel
