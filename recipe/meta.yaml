@@ -1,11 +1,11 @@
-{% set version = "2.1.1" %}
+{% set version = "2.1.2" %}
 package:
   name: mkl_fft
   version: {{ version }}
 
 source:
   url: https://github.com/IntelPython/mkl_fft/archive/{{ version }}.tar.gz
-  sha256: d9a70b95d183488f4e97e296e91ee90034f5fe1d01d11506d696935fa942795b
+  sha256: 0f68c08a201f6474b4a62fbabc3c6323eb5508b9e783911ac61cabd7e9c1b978
 
 build:
   number: 0
