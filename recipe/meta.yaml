@@ -8,7 +8,7 @@ source:
   sha256: 6314b881b83f5e0cdffd91057cc31eafc14e7ba05f2ab1941d2ca9ede5eeb6ab
 
 build:
-  number: 0
+  number: 1
   ignore_run_exports:
     - blas
 
@@ -29,8 +29,10 @@ requirements:
 
 test:
   commands:
+    - pip check
     - pytest -v --pyargs mkl_fft
   requires:
+    - pip
     - pytest
     - scipy >=1.10
   imports:
