@@ -1,11 +1,11 @@
-{% set version = "2.2.0" %}
+{% set version = "2.2.1" %}
 package:
   name: mkl_fft
   version: {{ version }}
 
 source:
   url: https://github.com/IntelPython/mkl_fft/archive/{{ version }}.tar.gz
-  sha256: 6314b881b83f5e0cdffd91057cc31eafc14e7ba05f2ab1941d2ca9ede5eeb6ab
+  sha256: b6bfeb2f4dfcdd752e1f697b462cc11bcfc1f29866b961d99d34ab94b0c0a117
 
 build:
   number: 0
@@ -29,8 +29,10 @@ requirements:
 
 test:
   commands:
+    - pip check
     - pytest -v --pyargs mkl_fft
   requires:
+    - pip
     - pytest
     - scipy >=1.10
   imports:
