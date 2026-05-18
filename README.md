@@ -264,6 +264,7 @@ Feedstock Maintainers
 
 * [@ekomarova](https://github.com/ekomarova/)
 * [@jharlow-intel](https://github.com/jharlow-intel/)
+* [@ndgrigorian](https://github.com/ndgrigorian/)
 * [@vtavana](https://github.com/vtavana/)
 * [@xaleryb](https://github.com/xaleryb/)
 
