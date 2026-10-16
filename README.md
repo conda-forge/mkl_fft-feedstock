@@ -7,7 +7,7 @@ Home: http://github.com/IntelPython/mkl_fft
 
 Package license: BSD-3-Clause
 
-Summary: NumPy-based implementation of Fast Fourier Transform using Intel® oneAPI Math Kernel Library (OneMKL)
+Summary: NumPy-based implementation of Fast Fourier Transform using Intel® oneAPI Math Kernel Library (oneMKL)
 
 Supports in-place and out-of-place, 1D and ND complex FFT on arrays of single and double precision with arbitrary memory layout, so long as array strides are multiples of its itemsize.
 
@@ -61,6 +61,13 @@ Current build status
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=3104&branchName=main">
                   <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/mkl_fft-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_python3.14.____cp314" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>osx_64_python3.15.____cp315</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=3104&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/mkl_fft-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_python3.15.____cp315" alt="variant">
                 </a>
               </td>
             </tr>
